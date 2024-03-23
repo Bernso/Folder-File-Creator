@@ -62,6 +62,7 @@ def create_folders():
 root = customtkinter.CTk()
 root.geometry('350x200')
 root.title("Folder Creator")
+root.iconbitmap(r"Icon\Arhururan.ico")
 
 label = customtkinter.CTkLabel(root, text="Enter the number of folders you would like to create:")
 label.pack(padx=10, pady=10)
